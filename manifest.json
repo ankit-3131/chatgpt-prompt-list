@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGpt Prompt History",
+    "version": "1.0",
+    "description": "A browser extension that displays the history of YOUR prompts/questions used in a single Chat as a list",
+    "action": {
+        "default_title": "Click to show an alert"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions":  ["<all_urls>"],
+    "background": {
+        "service_worker": "./src/background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["./src/content.jsx"]
+        }
+    ]
+}
