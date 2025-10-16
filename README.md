@@ -1,12 +1,14 @@
-# React + Vite
+Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Download or clone the repository.
+Open Chrome and go to chrome://extensions/.
+Enable Developer mode (top-right corner).
+Click “Load unpacked” and select the folder containing this extension.
+The extension icon will appear in the toolbar.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Usage
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Click the extension icon in Chrome.
+View the list of your past prompts/queries.
+Click on any query to see its answer.
