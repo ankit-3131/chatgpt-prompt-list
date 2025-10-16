@@ -10,7 +10,7 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        popup: 'index.html',
+        popup: './index.html',
         background: 'src/background.js',
         content: 'src/content.jsx'
       },
@@ -22,6 +22,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    crx({ manifest })
-  ]
+    crx({manifest})
+  ],
 })
