@@ -1,7 +1,6 @@
 // Background script to handle extension events
 chrome.runtime.onInstalled.addListener(() => {
   console.log('Extension installed');
-  // Initialize storage
   chrome.storage.local.set({ prompts: [] });
 });
 
