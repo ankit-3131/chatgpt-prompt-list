@@ -1,3 +1,5 @@
+Working Extension Video : <a href="https://www.linkedin.com/posts/ankit3131_chromeextension-chatgpt-browserextension-activity-7358677402866094080-07el?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFYWs8gBsKOGhlNrXFDWhcoN19mhzyl3XRA">Link</a>
+
 Installation
 
 Download or clone the repository.
